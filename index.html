@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Covid-19 FeedBack Form</title>
+      <link rel="stylesheet"  href="index.css" />
+      <link  href="slide.css" rel="stylesheet">
+  </head>
+  <body >
+      <ul class="sliderpart">
+          <li><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+      </ul>
+      <div class="container">
+        <h2>Covid-19 Feedback form</h2>
+        <form action="">
+          <input type="text"   name="" placeholder="Name"><br><br>
+          <input type="number" name="" placeholder="Age"><br><br>
+          <input type="number" name="" placeholder="Mobile"><br><br>
+          <input type="text"   name="" placeholder="Hospital Treated"><br><br>
+          <input type="text"   name="" placeholder="Symptoms"><br><br>
+          <input type="text"   name="" placeholder="Travel History"><br><br>
+          <button onclick="showMessage()">Upload</button>
+          <br><br>
+          <marquee class="marquee">Fill out the details above</marquee>
+        </form>
+      </div>
+  </body>
+  <script type="text/javascript">
+    function showMessage(){
+      var answer=confirm("Are you sure to upload the data")
+      if(answer){
+        alert("Feed back recorded successfully")
+      }
+    }
+  </script>
+</html>
