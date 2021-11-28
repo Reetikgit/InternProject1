@@ -1,0 +1,43 @@
+
+
+body {    --primary: #6200ee;    --secondary: #e0e0e0;}
+#pp {    width: 30vh;    height: 30vh;    border-radius: 50%;}
+.up {    text-transform: uppercase;}
+.padd {    padding-left: 1vw !important;}
+.active {    border-bottom: 2px solid var(--primary);    color: var(--primary);}
+.prime {    color: var(--primary) !important;}
+.bgprime {    background-color: var(--primary) !important;}
+.sec {    color: var(--secondary) !important;}
+.bgsec {    background-color: var(--secondary) !important;}
+li > a {    display: flex !important;}
+body {    display: flex;    min-height: 100vh;    flex-direction: column;}
+h4 {    text-transform: uppercase;    font-size: 16px;}
+main {    flex: 1 0 auto;}
+.p {    width: 5vw;    height: 4.5vw;}
+.circle {    border-radius: 50%;}
+.bm {    margin-bottom: 2vw;}
+.fn {    padding: 2vw;    width: 100%;}
+@media screen and (max-width: 679px) {    .main1{        display: grid;        grid-template-rows: auto auto;        grid-template-columns: auto;    }    .card2{        grid-row: 1;    }    .card1{        grid-row: 2;    }    .main2{        display: grid !important;        grid-template-columns: auto;        grid-template-rows: auto auto;    }    .update{        grid-row: 1 !important;    }    .ppu{        grid-row: 2 !important;    }    .current-time{        width: 60vw !important;    }    .card {        border-radius: 10px;        padding-top: 4vh;        display: grid;        justify-content: center !important;        text-align: start ;        width: 90vw !important;        margin-left: 5vw !important;        margin-right: 5vw !important;    }
+    .oneline {        display: grid;        justify-content: center;    }
+    .ip {        width: 80vw !important;    }
+    .select-wrapper, .filename {        width: 75vw !important;    }}
+.filename {    padding: 1.4vw 1.4vw 1.4vw 5.5vw;    display: inline-block;    font-weight: 600;}
+.alert {    margin-top: 0px;    position: sticky;    top: 0px;    background-color: red;    height: 56px;    text-align: center;    color: white;    width: 80vw;    margin-left: 10vw;    border-bottom-left-radius: 10px;    border-bottom-right-radius: 10px;    z-index: 5;    display: grid;    justify-content: center;    padding: 10px 2vw 2vw;}
+input[type="file"] {    opacity: 0;}.pt{    padding-top: 1vw;    vertical-align: bottom;}.center{    display: grid;    justify-content: center;}.current-time{    background-color: var(--primary);    border-radius:  10px;    height: 14vh;    width: 20vw;    color: #fff;    display: grid;    justify-content: center;    font-weight: 900;    font-size: 20px;    padding: 1vw;}.current-time>p{    margin: 0px;}@media screen and (min-width: 679px) {    .main2{        display: grid !important;        grid-template-columns: auto;        grid-template-rows: auto;    }    .main1{        width: 90vw !important;        display: grid;        grid-template-rows: auto;        grid-template-columns: 30vw 60vw ;        grid-column-gap: 5vw !important;    }    .card1{        grid-column: 1;        margin-left: 2.5vw !important;        margin-right: 2.5vw !important;
+    }    .card2 {        padding-top: 10px !important;        grid-column: 2;        width: 60vw !important;        margin-left: 2.5vw !important;        margin-right: 2.5vw !important;    }    .card {        height: 85vh;        width: 30vw;        border-radius: 10px;        padding-top: 4vh;        display: grid;        justify-content: center;        text-align: match-parent;    }    .oneline {        display: flex;        justify-content: center;    }
+    .oneline > button,    .oneline > a {        width: 30vw;
+    }
+    .select-wrapper, .filename {        width: 55vw !important;    }
+}
+.bod {    box-shadow: none !important;}
+.ip {    width: 60vw !important;}form > div {    margin-top: 1.5vw;    width: 100% !important;}
+form {    display: grid;    width: 100% !important;    justify-content: center;    padding-top: 2vw;}
+.mdc-text-field__icon {    padding: 0.5vw;}
+.center {    justify-content: center;}
+.gen {    height: auto !important;    margin-top: 1vw !important;}.footer{    position: fixed;    bottom: 0px;    background-color: var(--secondary);    width: 100%;}form > .gen {    margin-top: 0px;}
+.gen > p {    padding-left: 1vw;
+}
+.selopt {    width: 55vw !important;}
+#gen {    width: 1vw;}
+.select {    width: 100%;}
+#preimg {    height: 5vh;    width: 5vw;}
